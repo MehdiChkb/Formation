@@ -1,0 +1,156 @@
+
+/* Couleurs */
+
+:root {
+    --primary-color: #86BD24;
+    --secondary-color: #333;
+  }
+  
+  /* Header */
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+   
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+ h1{
+    font-size: 3.3rem;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: revert;
+    color: #C8E69B;
+    }
+
+  .container{
+    display: flex;
+    height: 680px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+  }
+  
+  .left{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+
+  
+  .header img {
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-right: 280px
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight:bold;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  nav a:hover {
+    color: var(--secondary-color);
+    
+    
+  }
+  
+  .img{
+    background-image: url(../Images/A2-1920.jpg);
+    width: 100%;
+    border-top-left-radius: 10%;
+    background-position: right;
+    height: auto;
+    border-bottom-left-radius: 10%;
+    background-clip: content-box;
+ }
+
+ .gradient-text {
+    background: linear-gradient(to bottom,#86BD24, #C8E69B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .login-button {
+    background: linear-gradient(to bottom, #86BD24, #C8E69B);
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-button:hover {
+    background: #86BD24;
+  }
+  
+  /* FOOTER */
+
+
+.footer {
+  background: linear-gradient(to right, #86BD24, #C8E69B);
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif bold;
+  position: inherit;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  display: inline;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .nav2 a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.footer .nav2 a:hover {
+  color: #333;
+  font-family: 'Roboto';
+
+}
+.footertitle{
+  color: #ffffff;
+}
